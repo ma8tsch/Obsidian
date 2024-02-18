@@ -6,7 +6,6 @@
       {
         "id": "80a92680dc5dbef6",
         "type": "tabs",
-        "dimension": 67.32233502538071,
         "children": [
           {
             "id": "3e0e9e6896587766",
@@ -18,21 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "937df5e2989486e4",
-        "type": "tabs",
-        "dimension": 32.67766497461929,
-        "children": [
-          {
-            "id": "b80471406952197c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -150,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +147,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3e0e9e6896587766",
+  "active": "3ece6bda291ad6c2",
   "lastOpenFiles": [
     "create a link.md",
     "Welcome.md"

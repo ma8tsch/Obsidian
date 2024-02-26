@@ -21,8 +21,8 @@ A steering vector is more or less simply the collection of the phase delay for e
 
 $$
 \vec{a}(\theta) = \begin{bmatrix} 
-e^{\vec{k}\cdot \vec{r}_0} \\
 e^{\vec{k}\cdot \vec{r}_1} \\
+e^{\vec{k}\cdot \vec{r}_2} \\
 \vdots\\
 e^{\vec{k}\cdot \vec{r}_M} \end{bmatrix}
 $$
@@ -39,7 +39,21 @@ $$
 The signal received at each of the $M$ antenna element $x_i$ is the superposition of all $D$ signal sources $s_i$ 
 
 $$
-\vec{x} = \begin{bmatrix} x_0\\x_1\\\vdots\\x_M \end{bmatrix}
-= A\cdot \vec
+\vec{x} = \begin{bmatrix} x_1\\x_2\\\vdots\\x_M \end{bmatrix}
+= A\cdot \vec{s} + \vec{n} 
+= \begin{bmatrix}\ \vec{a(\theta_1)}, \vec{a(\theta_2)}, ...,\vec{a(\theta_D)}\end{bmatrix} \cdot \begin{bmatrix} s_1 \\ s_2 \\ \vdots\\s_D\end{bmatrix} + \begin{bmatrix} n_1\\n_2\\\vdots\\n_D \end{bmatrix}
 $$
 
+Where $\vec{n}$ denotes the noise
+
+## AOA Estimation 
+
+ approach to estimate the angle of an arriving wave would be 
+
+
+There are several different algorithms that can be used to estimate the angle of arrival as well as the number of sources. Some of them are listed below
+- [[Fourrier Transformation]]
+- [[Bartlett Beamformer]]
+- [[Minimum Varaince Distortionless Response (MVDR)]]
+- [[MUSIC]]
+- [[ESPRIT]]

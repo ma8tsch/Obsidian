@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "create a link.md",
-                "mode": "preview",
+                "file": "wave vector.md",
+                "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "692867b5a6a71fdd",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/create a link 2024-02-19 21.55.39.excalidraw.md"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "create a link.md",
+                "file": "wave vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "create a link.md",
+                "file": "wave vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "create a link.md"
+                "file": "wave vector.md"
               }
             }
           }
@@ -158,8 +148,9 @@
   },
   "active": "3e0e9e6896587766",
   "lastOpenFiles": [
+    "Angle of Arrival.md",
+    "wave vector.md",
     "Excalidraw/create a link 2024-02-19 21.55.39.excalidraw.md",
-    "create a link.md",
     "Excalidraw/Drawing 2024-02-19 21.52.52.excalidraw.md",
     "Excalidraw",
     "Excalidraw/create a link 2024-02-19 21.47.46.excalidraw.md",

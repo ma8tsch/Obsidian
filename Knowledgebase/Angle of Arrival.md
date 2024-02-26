@@ -8,9 +8,13 @@ Given that the signal arrives at the antenna array as a planar wave front, the s
 $$
 x_i(t) = e^{j\varphi_i}   s_i(t) e^{j\omega t}
 $$
-If the phase delay delay is given relative to the wave seen at the origin of the coordinate system, it can be formulated as:
+Relative to the origin the phase delay, as seen by ith-sensor, can be formulated as:
 
 $$
-\varphi_i = \vec{k} ...
+\varphi_i = \vec{k} \cdot \vec{r}_i
 $$
-$\vec{k}$ is the [[wave vector]]
+$\vec{k}$ is the [[Wave Vector]] and $\vec{r}_i$ is the position of the array element.
+
+
+
+

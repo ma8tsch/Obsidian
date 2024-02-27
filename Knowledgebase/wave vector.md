@@ -1,4 +1,4 @@
-The wave vector $\vec{k}$ is used to describe the propagation of a plane wave front. The vector is always perpendicular to the plane of the wave front and points into the direction of travel. The magnitude of $\vec{k}$  is the waves angluar frequency:
+The wave vector $\vec{k}$ is used to describe the propagation of a plane wave front. The vector is always perpendicular to the plane of the wave front and points into the direction of travel. The magnitude of $\vec{k}$  is the waves angular frequency:
 $$
 |\vec{k}| = \frac{2\pi}{\lambda}
 $$

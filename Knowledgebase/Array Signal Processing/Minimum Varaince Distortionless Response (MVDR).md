@@ -31,3 +31,9 @@ p
 \frac{1}{\vec{a}^H(\theta) \cdot R_{xx}^{-1} \cdot \vec{a}(\theta)}
 \end{align*}
 $$
+
+## Limitations
+
+- MVDR has problems with multipath signals. Multipath signals are signals that come from the same source but took different paths (????)
+- MVDR is not robust to calibration errors. Small errors can dramatically effect the performance (this is generally the case for any [[Nullforming]] algorithms)
+- High signal to noise ratio can lead to poorly conditioned $R_{xx}$  which leads to problems with inverting the matrix (-> Solution may be to perform [[Diagonal Loading]]) 

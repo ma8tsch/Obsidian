@@ -16,7 +16,6 @@ $$
 $\vec{k}$ is the [[Wave Vector]] and $\vec{r}_i$ is the position of the array element.
 
 ## Steering Vector 
-
 A steering vector is more or less simply the collection of the phase delay for each antenna. 
 
 $$

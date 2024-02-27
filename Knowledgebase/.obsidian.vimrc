@@ -17,9 +17,9 @@ set clipboard=unnamed
 " Go back and forward with Ctrl+O and Ctrl+I
 " (make sure to remove default Obsidian shortcuts for these to work)
 exmap jback obcommand app:go-back
-nmap <C-o> :jback
+nmap <C-h> :jback
 exmap forward obcommand app:go-forward
-nmap <C-i> :forward
+nmap <C-l> :forward
 
 " Follow link under cursor. 
 nmap <Space>gd <A-CR>

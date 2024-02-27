@@ -30,5 +30,17 @@
       ],
       "key": "K"
     }
-  ]
+  ],
+  "switcher:open": [],
+  "editor:open-search-replace": [],
+  "editor:toggle-checklist-status": [],
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": []
 }

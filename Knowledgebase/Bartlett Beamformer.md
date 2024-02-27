@@ -1,28 +1,29 @@
+The idea of the bartlett beamformer is to evaluate the power received from different directions. The direction of the signal source is assumed to be the one with the maximum power .
 
-The signal from the i-th antenna at the location $\vec{r}_i$ is assumed to be 
+If we assume a planar wave front, the signal received by the i-th antenna at the location $\vec{r}_i$ can be expressed as
 $$
-x_i(t) = s(t)e^{\vec{k}\cdot\vec{r}_i}
+x_i(t) = s(t)e^{\vec{k}\cdot\vec{r}_i}.
 $$
-$s(t)$ is the waveform as observed at the origin.
+$s(t)$ is the waveform as observed at the origin and $\vec{k}$ is the [[Wave Vector]]. 
 
-The idea is to form a number of beams into candidate directions and look for the direction with the maximum input power. The output for a given beam is
+To obtain constructive interference for a signal  received from a source at an angle of $\theta$ we can multiply the signal vector $\vec{x}$  by the conjugate of the [[Steering Vector]] $\vec{a}(\theta$ ): 
 $$
 y_n(t)=\vec{a}^H(\theta_n) \cdot \vec{x}
 $$
-To get the time average power into that direction 
+The time average power received from a given direction can be calculated by:
 
 $$
 \begin{align*} 
-f(x) 
+p_n
 &= \frac{1}{T} \int _{t_0}^{t_0+T} y_n(t)y_n^H(t)dt\\ 
 &= 
 \frac{1}{T} \int _{t_0}^{t_0+T} (\vec{a}^H(\theta_n) \cdot \vec{x}(t))(\vec{a}^H(\theta_n) \cdot \vec{x}(t))^Hdt \\ 
 &= \vec{a}^H(\theta_n)\cdot 
 \left(\frac{1}{T} \int _{t_0}^{t_0+T} \vec{x}(t) \cdot \vec{x}(t)^Hdt\right)
 \cdot\vec{a}(\theta_n)\\ 
-&=\vec{a}^H(\theta_n)\cdot R \cdot\vec{a}(\theta_n)
+&=\vec{a}^H(\theta_n)\cdot R_{xx} \cdot\vec{a}(\theta_n)
 \end{align*}
 $$
 
-$R$ is an MxM matrix and is called the spatial covariance matrix.
+$R_{xx}$ is called the spatial covariance matrix and is of size MxM.
 

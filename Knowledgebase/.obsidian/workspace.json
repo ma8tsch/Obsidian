@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bartlett Beamformer.md",
+                "file": "Wave Vector.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bartlett Beamformer.md",
+                "file": "Wave Vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bartlett Beamformer.md",
+                "file": "Wave Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bartlett Beamformer.md"
+                "file": "Wave Vector.md"
               }
             }
           }
@@ -149,8 +150,10 @@
   "active": "3e0e9e6896587766",
   "lastOpenFiles": [
     "Angle of Arrival.md",
-    "Bartlett Beamformer.md",
     "Wave Vector.md",
+    "Steering Vector.md",
+    "Bartlett Beamformer.md",
+    "create a link.md",
     "Excalidraw/create a link 2024-02-19 21.55.39.excalidraw.md",
     "Excalidraw/Drawing 2024-02-19 21.52.52.excalidraw.md",
     "Excalidraw",

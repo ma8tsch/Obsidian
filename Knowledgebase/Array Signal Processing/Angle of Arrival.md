@@ -1,3 +1,13 @@
+___
+TODO 
+
+- Any angle of arrival problem can be formulated as follows: 
+	$$
+	\underset{\vec{r}}{argmax}  \quad  \vec{b}^H(\vec{r}) \cdot R_{xx} \cdot \vec{b}(\vec{r})
+	$$
+	for bartlett for example, the beamformer b is simply the steering vector
+___
+
 
 
 The signal amplitude of a point source is denoted as $s_i(t)$ . 

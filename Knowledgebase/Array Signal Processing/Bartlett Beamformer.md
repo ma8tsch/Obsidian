@@ -25,5 +25,11 @@ p_n
 \end{align*}
 $$
 
-$R_{xx}$ is called the spatial covariance matrix and is of size MxM.
+$R_{xx}$ is called the spatial covariance matrix and is of size $M \times M$.
+
+## Limitations
+Some of the major limitations of the bartlett beamformer
+- The bartlett beamformer does not model noise within the  received signal
+- limited resolution
+- dynamic range - Stronger signals limit the ability to detect weaker signals 
 
